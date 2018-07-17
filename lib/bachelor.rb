@@ -1,5 +1,5 @@
 def get_first_name_of_season_winner(data, season)
-  name = data["season"]["name"].split
+  name = data[season]["name"].split
   name[0]
 end
 
